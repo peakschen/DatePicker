@@ -1,6 +1,6 @@
 # DatePicker for Android
 
-Datepick is an android components, it can select the time interval between two dates.
+DatePicker is an Android components, it can select the time interval between two dates.
 
 DatePicker主要包含两部分，日期选择控件跟月份选择控件。
 
