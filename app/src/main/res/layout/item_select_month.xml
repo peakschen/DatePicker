@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_month_item"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/select_month_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_btn_month_selector"
+        android:button="@null"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="6月"
+        android:textColor="@drawable/selector_month_select_text_color" />
+
+</LinearLayout>

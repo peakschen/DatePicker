@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingDefaultResource">
+    <com.calendardatepicker.date.customviews.DateCalendarView
+        android:id="@+id/calendar"
+        android:layout_width="440dp"
+        android:layout_height="530dp"
+        android:background="@drawable/shape_bg_white_2dp"
+        custom:calendar_tag="Test"
+        custom:disable_date_color="#ABABAB"
+        custom:enable_past_date="true"
+        custom:header_bg="@drawable/calendar_header"
+        custom:range_color="@color/range_bg_color_app"
+        custom:selected_date_circle_color="@color/selected_date_circle"
+        custom:title_color="@color/calendar_header_title"
+        custom:editable="true"
+        custom:week_offset="0">
+
+    </com.calendardatepicker.date.customviews.DateCalendarView>
+
+    <com.calendardatepicker.month.MonthPicker
+        android:id="@+id/monthPicker"
+        android:layout_width="440dp"
+        android:layout_height="480dp" />
+
+</RelativeLayout>

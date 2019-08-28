@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General -->
+    <color name="selected_date_circle_color">#54B948</color>
+    <color name="colorPrimary">#115350</color>
+    <color name="colorPrimaryDark">#225350</color>
+    <color name="colorAccent">#334081</color>
+    <!-- Fonts -->
+    <color name="title_color">#000000</color>
+    <color name="date_color">#000011</color>
+    <color name="week_color">#000022</color>
+
+    <!-- Calendar Date -->
+    <color name="default_date_color">#3b4144</color>
+    <color name="disable_date_color">#BDBDBD</color>
+    <color name="range_date_color">@color/default_date_color</color>
+    <color name="selected_date_color">#FFF</color>
+    <color name="range_bg_color">#B7C99D</color>
+    <color name="calendar_text">#474747</color>
+
+    <color name="colorBlue">#4371FF</color>
+    <color name="white">#ffffff</color>
+    <color name="textColor">#333333</color>
+    <color name="selected_month_circle">#FF5252</color>
+    <color name="calendar_header_title">#fffff1</color>
+    <color name="range_bg_color_app">#00000000</color>
+    <color name="selected_date_circle">#FFFDDA24</color>
+
+</resources>
